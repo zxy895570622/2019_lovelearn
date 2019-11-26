@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/playlist/playlist",
+    "pages/blog/blog",
+    "pages/profile/profile",
+    "pages/demo/demo",
+    "pages/blog-edit/blog-edit"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "在线视频播放测试",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/playlist/playlist",
+        "text": "首页",
+        "iconPath": "images/vi1.png",
+        "selectedIconPath": "images/vi.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "共享圈 ",
+        "iconPath": "images/blog1.png",
+        "selectedIconPath": "images/blog.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/profile1.png",
+        "selectedIconPath": "images/profile.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
